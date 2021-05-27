@@ -1,0 +1,146 @@
+*,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+  *,
+  body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .landing {
+    padding: 0px 30px;
+    background: -webkit-gradient(linear, left top, right bottom, from(#FBF1F1), to(#DEE3F5));
+    background: linear-gradient(to bottom right, #FBF1F1, #DEE3F5);
+    overflow: hidden;
+  }
+  .landing .nav {
+    max-width: 420px;
+    height: 66px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .landing .nav .logo svg {
+    width: 62px;
+    height: 22px;
+    color: #32315D;
+  }
+  .landing .nav .hamburger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 3px;
+    z-index: 1;
+    background: #32315D;
+  }
+  .landing .nikeheader {
+    font-family: Poppins;
+    color: #32315D;
+    position: relative;
+    margin-top: 40px;
+  }
+  .landing .nikeheader h3 {
+    color: #FF8652;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  .landing .nikeheader h1 {
+    margin-top: -20px;
+    font-size: 3rem;
+  }
+  .landing .shoeheader img {
+    width: 450px;
+    height: auto;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+    position: relative;
+    top: -140px;
+    right: 20px;
+    -webkit-filter: drop-shadow(0px 40px 30px rgba(91, 100, 149, 0.6));
+            filter: drop-shadow(0px 40px 30px rgba(91, 100, 149, 0.6));
+  }
+  .landing .shoedesc {
+    width: 100%;
+    font-family: "Poppins";
+    color: #32315D;
+    position: relative;
+    margin-top: -200px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-size: 14px;
+  }
+  .bottompart {
+    padding: 0px 30px;
+    background: #fafafa;
+  }
+  .bottompart .four-images {
+    margin-top: 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .bottompart .four-images img {
+    width: 138px;
+    height: 138px;
+    margin: 05px;
+  }
+  .bottompart .description {
+    font-family: "Poppins";
+    color: #32315D;
+    margin-top: 30px;
+  }
+  .bottompart .description h4 {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .bottompart .description p {
+    line-height: 25px;
+    color: #32315D;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .bottompart .description p span {
+    font-weight: 600;
+  }
+  .bottompart .addtobag {
+    margin: 50px 0px 25px 0px;
+  }
+  .bottompart .addtobag input {
+    background: #FF8652;
+    font-family: "Poppins";
+    border: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    color: #fafafa;
+  }
+}
+/*# sourceMappingURL=style.css.map */
